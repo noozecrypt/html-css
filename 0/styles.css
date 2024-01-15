@@ -1,0 +1,23 @@
+body {
+	font-family: 'Space Mono', monospace;
+}
+
+div {
+	width: 55%;
+	margin-left: 32px;
+	margin-top: 128px;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 32px;
+	text-decoration: #0f0326 underline;
+}
+
+span {
+	text-shadow: 0 -4.75px #f25757, 0 -8.25px #f2e863, 0 4.75px #61e8e1,
+		0 8.25px #b5d99c;
+}
