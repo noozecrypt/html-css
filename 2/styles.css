@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+body {
+	font-family: Cormorant, serif;
+}
+
+h1 {
+	margin: 0 32px 0 0;
+	display: inline-block;
+	font-weight: 300;
+}
+
+.header-nav {
+	display: inline-block;
+}
+
+.header-nav ul {
+	padding: 0;
+}
+
+.header-nav li {
+	display: inline-block;
+}
+
+.header-nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 8px;
+}
+
+.header-nav a.active {
+	border-bottom: 1px solid black;
+}
+
+.top_header {
+	margin: 32px;
+}
+
+.card {
+	width: 49.85%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 16px;
+}
+
+.card img {
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.card img:hover {
+	opacity: 0.9;
+}
+
+.card h2 {
+	display: inline-block;
+	margin: 8px 0 16px 0;
+}
+
+.gallery {
+	padding: 16px;
+}
+
+.about {
+	width: 40%;
+	min-width: 600px;
+	margin: 100px 0 100px 200px;
+}
+
+.about h3 {
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.about .cta {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	padding-bottom: 8px;
+	margin-top: 0;
+}
+
+.about .contact {
+	margin-top: 100px;
+}
+
+.about .contact p {
+	margin: 0;
+	font-size: 20px;
+}
